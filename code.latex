@@ -1,0 +1,196 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Shreyas}{Rane}
+{ 
+\\
+{4700 Kingsessing Ave. Philadelphia, PA 19143}\\
+\href{mailto:shreyas.rane@rutgers.edu}{shreyas.rane@rutgers.edu} | (248) 413-7954
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Rutgers University}
+\descript{BA in Computer Science}
+\location{Expected May 2020 | Camden, NJ}
+College of Arts and Sciences\\
+Dean's List (Spring 2019, Fall 2019) \\
+\location{ Cum. GPA: 3.49 \\
+Major GPA: 3.3}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/twopiaresquared}{\custombold{twopiaresquared}} \\
+LinkedIn://  \href{https://www.linkedin.com/in/shreyas-rane-760a9b155/}{\custombold{shreyas-rane-760a9b155/}} \\
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Computer Science}
+Design and Analysis of Algorithms\\
+Data structures\\
+Network Security\\
+Operating Systems\\
+Computational Number Theory\\
+Numerical Methods\\
+Optimization Methods\\
+\subsection{Mathematics}
+Linear Algebra and Differential Equations\\
+Multivariable Calculus and Advanced Calculus\\
+Discrete Mathematics and Probability\\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Over 5000 lines:}
+C++ \textbullet{}   Python \textbullet{} JavaScript \textbullet{} Matlab \\
+SQL \textbullet{}  HTML/CSS \textbullet{} \LaTeX\ \\ 
+\location{Over 1000 lines:}
+JAVA \textbullet{}  PHP \textbullet{}  \textbullet{} Assembly \\
+\location{Familiar:}
+Ruby \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Student Clubs and Awards
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Student Clubs Awards}
+Member of Google’s Developer Students’ Club (Rutgers Chapter),Rutgers Honors College, ACM Rutgers, IEEE and MAth Club.\\
+Rutgers Chancellor’s Scholarship 2018-2020.\\
+Academic Excellence (Fall 2016, Spring 206, Fall 2017).
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Rutgers ELRA}
+\descript{| Tutor }
+\location{June 2019 – Present | Camden, NJ}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}\item Developed over 100 lesson plans for students using Tadpoles and attended attended over 50 training session for Early Childhoon studies
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Rutgers VPVA}
+\descript{| Community Ambassador }
+\location{October 2018 – June 2019 | Camden, NJ}
+\begin{tightemize}
+\item Worked along with a team of 5 members and arranged over 50 events like social-awareness lectures, community clean-ups, shelter and food for homeless and Camden gentrification.\end{tightemize}
+\sectionsep
+
+\runsubsection{Motilal Oswal Financial Services}
+\descript{| Executive Equity Advisor}
+\location{June 2015 – July 2016 | Mumbai, India}
+\begin{tightemize}
+\item Analyzed over 1500 stocks using Bloomberg Terminal and produced financial models to generate buy/sell calls which helped the brokerage and generated cumulative revenue of over 100 million for my clients.\end{tightemize}
+\sectionsep
+
+\runsubsection{Motilal Oswal Financial Services}
+\descript{| Intern}
+\location{Feb 2015 – May 2016 | Mumbai, India}
+\begin{tightemize}
+\item Interned for the Vice-President and attended over 50 events and meetings within 3 months while communicating trading recommendations  to over 200 clients everyday.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Universal Music Group}
+\descript{| Performing Artist}
+\location{Feb 2015 – May 2016 | Mumbai, India}
+\begin{tightemize}
+\item Performed over 100 concerts and four television appearances in continents of Asia, North America and Europe.\item Released an EP (Tales from the Tides) and an album (Spellbound). Which is available in physical form and digitally making over 50,000 sales.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Select Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Select Projects}
+\runsubsection{Rutgers Insight}
+\descript{| Founder and Editor-In-Chief}
+\location{Dec 2019 – Present | Camden, NJ}
+Working on a research journal consisting of 30 articles which provides a platform for the student at Rutgers to publish their academic papers expected to be subscribed by over 5000. \textbf
+\sectionsep
+
+\runsubsection{Health Credit Provider}
+\descript{| BA and Developer}
+\location{September 2019 – December 2019 | Camden, NJ}
+\item  Managed the project as a BA to develop use cases, use-case diagrams, wire frames for health credit provider website and later implemented the front end(HTML/CSS, JavaScript), back end(Python Flask, SQL Alchemy) for the website which locates over 3000 providers in the US.\textbf
+\sectionsep
+
+\runsubsection{Automated Futures Trading}
+\descript{|Developer}
+\location{Dec 2019 – Present | Camden, NJ}
+Developed an automated trading call generator based on technical constraint based algorithm. S&P 500 data was analysed using Tableau extracted from Bloomberg Terminal stored in SQL database. Linear Regression algorithm was implemented using Python and front end comprised of JavaScript and HTML5/CSS stack which displayed charts and calls.  \textbf
+\sectionsep
+
+
+\end{minipage} 
+\end{document}
