@@ -1,16 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Deedy - One Page Two Column Resume
-% LaTeX Template
-% Version 1.1 (30/4/2014)
-%
-% Original author:
-% Debarghya Das (http://debarghyadas.com)
-%
-% Original repository:
-% https://github.com/deedydas/Deedy-Resume
-%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[]{deedy-resume-openfont}
 
@@ -57,8 +44,7 @@
 \location{Expected May 2020 | Camden, NJ}
 College of Arts and Sciences\\
 Dean's List (Spring 2019, Fall 2019) \\
-\location{ Cum. GPA: 3.49 \\
-Major GPA: 3.3}
+\location{ Cum. GPA: 3.49 }
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -169,7 +155,7 @@ Academic Excellence (Fall 2016, Spring 206, Fall 2017).
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Select Projects
+%   Select Projects
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Select Projects}
