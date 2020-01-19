@@ -1,7 +1,12 @@
 
+
+
 \documentclass[]{deedy-resume-openfont}
-
-
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -16,12 +21,9 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \namesection{Shreyas}{Rane}
 { 
-\\
-{4700 Kingsessing Ave. Philadelphia, PA 19143}\\
+{4700 Kingsessing Ave. Philadelphia, PA 19143} \\
 \href{mailto:shreyas.rane@rutgers.edu}{shreyas.rane@rutgers.edu} | (248) 413-7954
 }
 
@@ -39,6 +41,8 @@
 
 \section{Education} 
 
+\section{Education} 
+
 \subsection{Rutgers University}
 \descript{BA in Computer Science}
 \location{Expected May 2020 | Camden, NJ}
@@ -46,7 +50,6 @@ College of Arts and Sciences\\
 Dean's List (Spring 2019, Fall 2019) \\
 \location{ Cum. GPA: 3.49 }
 \sectionsep
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -54,9 +57,7 @@ Dean's List (Spring 2019, Fall 2019) \\
 \section{Links} 
 Github:// \href{https://github.com/twopiaresquared}{\custombold{twopiaresquared}} \\
 LinkedIn://  \href{https://www.linkedin.com/in/shreyas-rane-760a9b155/}{\custombold{shreyas-rane-760a9b155/}} \\
-
 \sectionsep
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -71,10 +72,11 @@ Computational Number Theory\\
 Numerical Methods\\
 Optimization Methods\\
 \subsection{Mathematics}
-Linear Algebra and Differential Equations\\
-Multivariable Calculus and Advanced Calculus\\
+Advanced Linear Algebra and Differential Equations\\
+Multi-variable Calculus and Advanced Calculus\\
 Discrete Mathematics and Probability\\
 \sectionsep
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
@@ -86,19 +88,17 @@ Discrete Mathematics and Probability\\
 C++ \textbullet{}   Python \textbullet{} JavaScript \textbullet{} Matlab \\
 SQL \textbullet{}  HTML/CSS \textbullet{} \LaTeX\ \\ 
 \location{Over 1000 lines:}
-JAVA \textbullet{}  PHP \textbullet{}  \textbullet{} Assembly \\
+JAVA \textbullet{}  PHP  \textbullet{} Flask  \textbullet{}  Assembly \\
 \location{Familiar:}
 Ruby \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Student Clubs and Awards
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Student Clubs Awards}
-Member of Google’s Developer Students’ Club (Rutgers Chapter),Rutgers Honors College, ACM Rutgers, IEEE and MAth Club.\\
-Rutgers Chancellor’s Scholarship 2018-2020.\\
-Academic Excellence (Fall 2016, Spring 206, Fall 2017).
-\sectionsep
+\section{Publications} 
+\subsection{Mathematics and I.T}
+\renewcommand\refname{\vskip -1.5em}
+\bibliographystyle{abbrv}
+\bibliography{publications}
+\nocite{*}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -111,55 +111,11 @@ Academic Excellence (Fall 2016, Spring 206, Fall 2017).
 \begin{minipage}[t]{0.66\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EXPERIENCE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Experience}
-
-\runsubsection{Rutgers ELRA}
-\descript{| Tutor }
-\location{June 2019 – Present | Camden, NJ}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}\item Developed over 100 lesson plans for students using Tadpoles and attended attended over 50 training session for Early Childhoon studies
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Rutgers VPVA}
-\descript{| Community Ambassador }
-\location{October 2018 – June 2019 | Camden, NJ}
-\begin{tightemize}
-\item Worked along with a team of 5 members and arranged over 50 events like social-awareness lectures, community clean-ups, shelter and food for homeless and Camden gentrification.\end{tightemize}
-\sectionsep
-
-\runsubsection{Motilal Oswal Financial Services}
-\descript{| Executive Equity Advisor}
-\location{June 2015 – July 2016 | Mumbai, India}
-\begin{tightemize}
-\item Analyzed over 1500 stocks using Bloomberg Terminal and produced financial models to generate buy/sell calls which helped the brokerage and generated cumulative revenue of over 100 million for my clients.\end{tightemize}
-\sectionsep
-
-\runsubsection{Motilal Oswal Financial Services}
-\descript{| Intern}
-\location{Feb 2015 – May 2016 | Mumbai, India}
-\begin{tightemize}
-\item Interned for the Vice-President and attended over 50 events and meetings within 3 months while communicating trading recommendations  to over 200 clients everyday.
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Universal Music Group}
-\descript{| Performing Artist}
-\location{Feb 2015 – May 2016 | Mumbai, India}
-\begin{tightemize}
-\item Performed over 100 concerts and four television appearances in continents of Asia, North America and Europe.\item Released an EP (Tales from the Tides) and an album (Spellbound). Which is available in physical form and digitally making over 50,000 sales.
-\end{tightemize}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Select Projects
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Select Projects}
-\runsubsection{Rutgers Insight}
+\runsubsection{Rutgers- Camden Undergraduate Review}
 \descript{| Founder and Editor-In-Chief}
 \location{Dec 2019 – Present | Camden, NJ}
 Working on a research journal consisting of 30 articles which provides a platform for the student at Rutgers to publish their academic papers expected to be subscribed by over 5000. \textbf
@@ -174,9 +130,58 @@ Working on a research journal consisting of 30 articles which provides a platfor
 \runsubsection{Automated Futures Trading}
 \descript{|Developer}
 \location{Dec 2019 – Present | Camden, NJ}
-Developed an automated trading call generator based on technical constraint based algorithm. S&P 500 data was analysed using Tableau extracted from Bloomberg Terminal stored in SQL database. Linear Regression algorithm was implemented using Python and front end comprised of JavaScript and HTML5/CSS stack which displayed charts and calls.  \textbf
+Developed an automated trading call generator based on linear Regression/ Taylor Series algorithm  using Python back end and JavaScript and HTML5/CSS back end stack which displayed charts and calls.  \textbf
 \sectionsep
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Rutgers ELRA}
+\descript{| Tutor }
+\location{June 2019 – Present | Camden, NJ}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}\item Developed over 100 lesson plans for students using Tadpoles and attended attended over 50 training session for Early Childhood studies
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Rutgers VPVA}
+\descript{| Community Ambassador }
+\location{October 2018 – June 2019 | Camden, NJ}
+\begin{tightemize}
+\item Worked along with a team of 5 members and arranged over 50 events like social-awareness lectures, community clean-ups, shelter and food for homeless and Camden gentrification.\end{tightemize}
+\sectionsep
+
+\runsubsection{Motilal Oswal Financial Services}
+\descript{| Executive Equity Advisor}
+\location{June 2015 – July 2016 | Mumbai, India}
+\begin{tightemize}
+\item Analyzed over 1500 stocks using Bloomberg Terminal and produced financial models to generate buy/sell calls which helped the clients and generated cumulative revenue of over 10 million for my firm.\end{tightemize}
+\sectionsep
+
+\runsubsection{Motilal Oswal Financial Services}
+\descript{| Intern}
+\location{Feb 2015 – May 2016 | Mumbai, India}
+\begin{tightemize}
+\item Interned for the Vice-President and attended over 50 events and meetings within 3 months while communicating trading recommendations to over 200 clients everyday.
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{Universal Music Group}
+\descript{| Performing Artist}
+\location{Feb 2015 – May 2016 | Mumbai, India}
+\begin{tightemize}
+\item Performed over 100 concerts and four television appearances in continents of Asia, North America and Europe.\item Released an EP (Tales from the Tides) and an album (Spellbound). Which is available in physical form and digitally making over 50,000 sales.
+\end{tightemize}
+\sectionsep
+
+
+
+
+
 \end{minipage} 
-\end{document}
+\end{document}  \documentclass[]{article}
