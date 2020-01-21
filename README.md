@@ -1,6 +1,3 @@
-Original author:
-Debarghya Das (http://debarghyadas.com)
-
 A **one-page**, **two asymmetric column** resume template in **XeTeX** that caters particularly to an **undergraduate Computer Science** student.
 As of **v1.2**, there is an option to choose from two templates:
 
@@ -13,3 +10,6 @@ It is licensed under the Apache License 2.0.
 My edits have been added to suit my needs. 
 
 Needs Work.
+
+Originial Template code credits:
+Debarghya Das (http://debarghyadas.com)
